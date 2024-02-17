@@ -1,0 +1,75 @@
+.table-row {
+    background-color: var(--green-white-color);
+    border-radius: 10px !important;
+
+    th {
+        font-weight: 800 !important;
+        font-size: 16px;
+        color: #000;
+        // width: 250px;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+
+        span {
+            color: var(--black-dark0-color) !important;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .pagination {
+            flex-wrap: wrap;
+
+            span {
+                font-size: 14px;
+                font-weight: 500;
+                color: var(--black-dark0-color) !important;
+            }
+        }
+    }
+}
+
+.role-configure {
+    font-weight: 600 !important;
+    font-size: 22px !important;
+}
+
+.table-heading {
+    background-color: var(--green-white-color);
+}
+
+.table-heading-dark {
+    background-color: var(--grey-dark0-color);
+}
+
+
+// Form Preview Modal Styling
+.product-status-container {
+    width: 100%;
+    padding: 20px 0px;
+
+    .product-status {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--black-dark0-color);
+            margin-bottom: 0px !important;
+        }
+
+        .status-container {
+            padding: 3px 10px;
+            font-size: 18px;
+            margin-bottom: 0px;
+            border-radius: 1rem;
+            background-color: var(--green-light0-color);
+        }
+    }
+
+    // questions container
+    
+}

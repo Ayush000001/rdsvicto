@@ -1,0 +1,52 @@
+{
+ "Content-Type": "application/json",
+ "Authorization": "Bearer <API Key>",
+ "API-Version": "1.0",
+
+ 
+ "Organization-Id": "1", // this is pre-filled
+ "Organization-Name": "Misfits", // this is pre-filled
+ "Product-Id": "1", // this is pre-filled
+ "Product-Name": "CEDAR_1.0", // this is pre-filled
+
+ "Form": [
+  {
+   "Id": "1", // this is pre-filled
+   "Answers": [
+    {
+     "Question-Id": "1", // this is pre-filled
+     "Group-Id": "1", // this is pre-filled
+     "Group-Name": "Development Environment", // this is pre-filled
+     "Question-Text": "Specify the main processor manufacturer - please select", // this is pre-filled
+     "answer": [
+      {
+       "Attribute-Id": "1", // this is pre-filled
+       "Attribute-Name": "Data Source Type", // this is pre-filled
+       "content": "Primary"  <!-- It will be matched with the master data table values if got ? then Master Data Id will be send otherwise it will be a plain text -->
+      },
+      {
+       "Attribute-Id": "2", // this is pre-filled
+       "Attribute-Name": "Data Source", // this is pre-filled
+       "content": "CMDB" <!-- It will be matched with the master data table values if got ? then Master Data Id will be send otherwise it will be a plain text -->
+      },
+      {
+       "Attribute-Id": "4", // this is pre-filled
+       "Attribute": "Core", // this is pre-filled
+       "content": "INTEL" <!-- It will be matched with the master data table values if got ? then Master Data Id will be send otherwise it will be a plain text -->
+      },
+      {
+       "Attribute-Id": "5", // this is pre-filled
+       "Attribute": "Release", // this is pre-filled
+       "content": "AMD" <!-- It will be matched with the master data table values if got ? then Master Data Id will be send otherwise it will be a plain text -->
+      },
+      {
+       "Attribute-Id": "6", // this is pre-filled
+       "Attribute": "Use", // this is pre-filled
+       "content": "" <!-- It will be matched with the master data table values if got ? then Master Data Id will be send otherwise it will be a plain text -->
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
